@@ -40,12 +40,23 @@ body {
   color:white;
   background-color:lightskyblue;
 }
-   
+
+h1 {
+  color: rgb(12, 173, 167);
+  background-color: white;
+	font-size: 28px;
+  font-weight: 300;
+  font-family: Lucida Grande;
+  font-weight: 300;
+  text-align: left;
+ }
+
 h3 {
   color: rgb(12, 173, 167);
   background-color: white;
+  font-size: 24px;
   font-family: Lucida Grande;
-  font-weight: bold;
+  font-weight: 300;
   text-align: center;
  }
  
