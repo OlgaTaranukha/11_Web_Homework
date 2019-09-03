@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Max Temperature</title>
+  
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
+
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+  <link rel="stylesheet" href="WebWeather.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md bg-light navbar-light">
+    <!-- Brand -->
+    <a class="navbar-brand" href="WebWeather.html">     
+      <span class="text-white">
+        <i class="fa fa-fw fa-home"></i>
+        <strong>Latitude</strong>
+      </span>
+    </a>
+    <!-- Toggler/collapsibe Button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar links -->
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav ml-auto">
+        <!-- Dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+            <i class="fa fa-bar-chart"></i>Plots
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="Temperature.html">Max Temperature</a>
+            <a class="dropdown-item" href="Humidity.html">Humidity</a>
+            <a class="dropdown-item" href="Cloudiness.html">Cloudiness</a>
+            <a class="dropdown-item" href="Wind_Speed.html">Wind Speed</a>
+          </div>
+        </li>
+        <!-- Navbar links -->
+        <li class="nav-item">
+          <a class="nav-link" href="Comparison.html"><i class="fa fa-joomla"></i>Comparison</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Data.html"><i class="fa fa-cog fa-spin"></i>Data</a>
+        </li> 
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="jumbotron">
+        <h1>Data</h1>
+        <p>The following table includes all of the data used for plotting during this project.</p>
+        <table class="table table-bordered table-striped table-condensed">
+          <thead>
+            <tr>
+              <th class="table-head">City_ID</th>
+              <th class="table-head">City</th>
+              <th class="table-head">Cloudiness</th>
+              <th class="table-head">Country</th>
+              <th class="table-head">Date</th>
+              <th class="table-head">Humidity</th>
+              <th class="table-head">Lat</th>
+              <th class="table-head">Lng</th>
+              <th class="table-head">Max Temp</th>
+              <th class="table-head">Wind Speed</th>
+            </tr>
+          </thead>
+
+          <tbody>
+
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+</body> 
+
+</html>
