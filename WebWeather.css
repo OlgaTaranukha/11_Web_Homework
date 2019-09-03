@@ -1,18 +1,117 @@
-h1 {
-  margin-top: 20%;
-  margin-left: 42%;
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: lightgrey;
 }
 
-h2 {
-  margin-left: 43%;
+.navbar {
+  font-family: 'Times New Roman', Times, serif;
+  padding-left: 50px;
+  width: 100%;
+  background-color: white;
+  color: deepgrey;
 }
 
-/* Header 3 needs no styling but has to be moved to the first position in the HTML */
+.navbar .navbar-brand {
+  color: white;
+  background-color: lightseagreen;
+  font-weight: bold;
+  float: left;
+}   
 
-/* Header 4 has to be moved to the last position in the HTML */
+.navbar-toggler {
+  font-family: 'Times New Roman', Times, serif;
+  color: deepgrey;
+}
+ 
+.navbar-brand:hover {
+  color:black;
+  background-color: lightskyblue;
+  font-weight: bold;
+  float: left;
+}  
+
+/*.navbar a:hover {*/
+.nav-item:hover {
+  color:white;
+  background-color:lightskyblue;
+}
+
+.navbar a:hover {
+  color:white;
+  background-color:lightskyblue;
+}
+   
+h3 {
+  color: rgb(12, 173, 167);
+  background-color: white;
+  font-family: Lucida Grande;
+  font-weight: bold;
+  text-align: center;
+ }
+ 
 h4 {
-  margin-top: 20%;
-  margin-left: 90%;
+  color: rgb(12, 173, 167);
+  background-color: white;
+  font-family: Lucida Grande; 
+  font-weight: bold;
+  text-align: center;
+ }
+ 
+/* img {
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  width: fit-content;
+  height: fit-content;
+ }*/
+ 
+ p {
+ /*   font-family: times new roman; sans-serif;*/
+  font-size: 12;
+  padding-left: 10px;
+  padding-right: 10px;
+ }
+ 
+ .container-fluid {
+  background-color: lightgrey;
+  padding-top: 20px;
+} 
+
+.row{
+  background-color: lightgrey;
+} 
+
+.row .box{ 
+  background-color: lightgrey;
+  width: 100%;
+  height: fit-content;
+  /*padding-left: 20px;*/
 }
 
-/* Header 5 needs no styling, but has to be the third element in the HTML. It cannot be placed at the true center of the page due to Header 1 occupying that space; you would have to make it so Header 1 is "inline" */
+.box .box {
+   background-color: white;
+   width: 100%;
+   height: fit-content;
+   padding-left: 20px;*/
+   padding-top: 20px;
+ }
+
+@media screen and (max-width: 760px) {
+  .navbar a {
+     float: none;
+     display: block;
+  }
+  .navbar {
+    background-color: lightseagreen;
+  }
+  .navbar-brand {
+    background-color: white;
+    font-family: times new roman;
+    font-weight: bold;
+    color: lightseagreen;
+  }
+
+} 
+
+  
