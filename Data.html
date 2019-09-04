@@ -60,16 +60,17 @@
   </nav>
 
   <div class="container-fluid">
+    <h3><strong>Data</strong ></h3>
+     <p class="category">The following table includes all of the data used for plotting during this project.</p>
     <div class="row">
-      <div class="jumbotron">
-        <h1>Data</h1>
-        <p>The following table includes all of the data used for plotting during this project.</p>
-        <table class="table table-bordered table-striped table-condensed">
-          <thead>
-            <tr>
+      <div class="jumbotron"> 
+        <div class="content table-responsive table-full-width">
+          <table class="table table-bordered table-striped table-condensed" datasrc="#data">
+            <thead>
+              <tr>
               <th class="table-head">City_ID</th>
               <th class="table-head">City</th>
-              <th class="table-head">Cloudiness</th>
+              <th class="table-head">Cloudiness</th> 
               <th class="table-head">Country</th>
               <th class="table-head">Date</th>
               <th class="table-head">Humidity</th>
@@ -77,13 +78,31 @@
               <th class="table-head">Lng</th>
               <th class="table-head">Max Temp</th>
               <th class="table-head">Wind Speed</th>
-            </tr>
-          </thead>
+              </tr>
+            </thead>
 
-          <tbody>
+            <tbody> 
+              <tr>
+                <td><span datafld="City_ID"> </span></td>
+                <td><span datafld="City"></span></td>
+                <td><span datafld="Cloudiness"> </span></td>
+                <td><span datafld="Country"> </span></td>
+                <td><span datafld="Date"></span></td>
+                <td><span datafld="Humidity"> </span></td>
+                <td><span datafld="Lat"></span></td>
+                <td><span datafld="Lng"></span></td>
+                <td><span datafld="Max Tem"></span></td>
+                <td><span datafld="Wind Speed"></span></td> 
+              </tr>  
+              
+              <object ID=data classid="clsid:333C7BC4-460F-11D0-BC04-0080C7055A83">
+                <param name="DataURL" value="./Resources/cities.csv">
+                <param name="UseHeader" value="true">
+              </object>
 
-          </tbody>
-        </table>
+            </tbody>          
+          </table>
+        </div>
       </div>
     </div>
   </div>
